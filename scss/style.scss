@@ -12,6 +12,7 @@ ul{
 	box-sizing:border-box;
 }
 li{
+	
 	width:530px;
 	
 	font-size: 40px;
@@ -21,6 +22,7 @@ li{
 	margin:0 auto;
 	box-sizing:border-box;	
 	max-height: 52px;
+	
 
 
 	/* Set our transitions up. */
@@ -40,8 +42,9 @@ div{
 	height:100%;
 	background-color: black;
 	color:white;
-	position: relative;
-	top:-47px;
+	position: absolute;
+	top:0;
+	flex:none;
 }
 section{
 	width: 100%;
@@ -50,6 +53,14 @@ section{
 
 p{
 	padding:0px 50px;
+}
+
+.li_active{
+	background-color: lime;
+}
+
+.li_open{
+	max-height: 400px;
 }
 @media screen and (max-width: 600px){
 	li{
