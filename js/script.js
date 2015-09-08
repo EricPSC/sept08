@@ -17,10 +17,10 @@ Function.prototype.convert_to_multiline_html = function() {
 var html_list = function() {/*!
     <ul>
        <li onclick="newGame()">Add A Game +</li>
-       <li onclick="getIndex(this)">Chess</li>
-       <li onclick="getIndex(this)">Poker</li>
-       <li onclick="getIndex(this)">Monopoly</li>
-       <li id="hi" onclick="getIndex(this)">Scrabble</li>
+       <li onclick="li_state_normal(this)">Chess</li>
+       <li onclick="li_state_normal(this)">Poker</li>
+       <li onclick="li_state_normal(this)">Monopoly</li>
+       <li onclick="li_state_normal(this)">Scrabble</li>
     </ul>
 */}.convert_to_multiline_html();
 
