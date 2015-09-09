@@ -16,11 +16,19 @@ Function.prototype.convert_to_multiline_html = function() {
 
 var html_list = function() {/*!
     <ul>
+<<<<<<< HEAD
        <li id="main">Add A Game</li>
        <li>Chess</li>
        <li>Poker</li>
        <li>Monopoly</li>
        <li>Scrabble</li>
+=======
+       <li onclick="newGame()">Add A Game +</li>
+       <li onclick="li_state_normal(this)">Chess</li>
+       <li onclick="li_state_normal(this)">Poker</li>
+       <li onclick="li_state_normal(this)">Monopoly</li>
+       <li onclick="li_state_normal(this)">Scrabble</li>
+>>>>>>> f8126c3f8a6411e667fc3f09d443b8e18ebab985
     </ul>
 }.convert_to_multiline_html();
 

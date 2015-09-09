@@ -1,5 +1,4 @@
 
-
 var game_ul = document.getElementById('game_ul');
 
 var game_list = game_ul.children;
@@ -30,4 +29,5 @@ game_list[0].addEventListener('click', function(){
     add_game();
     
 });
+
 
